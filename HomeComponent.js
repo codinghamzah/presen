@@ -1,7 +1,5 @@
 import React from "react";
 import { Button } from "bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft,faCheckSquare,faAmbulance, faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 const HomeComponent = () => {
   return (
     <div>
@@ -66,14 +64,14 @@ const HomeComponent = () => {
                       </center>
                     </h3>
                     <p>
-                     <center>
+                      <center>
                         Rumah Sakit Wava Husada dahulu bernama “Jang Seng Ie”
                         didirikan pada tanggal 28 Desember 1924 oleh dr Kwa
                         Tjoan Sioe dan beberapa teman sejawat serta
                         pengusaha-pengusaha Tionghoa di Jakarta dalam wadah
                         perkumpulan “Jang Seng Ie” (sekarang menjadi Rumah Sakit
                         Wava Husada).
-                        </center>
+                      </center>
                     </p>
                   </div>
                 </div>
@@ -87,35 +85,39 @@ const HomeComponent = () => {
           <div class="row mb-5">
             <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
               <div class="pricing">
-                <h4 class="text-center text-black">
-                  Staff Kompeten dan Terkualifikasi
+                <h4 class=" text-black">
+                  Fasilitas & Layanan
                 </h4>
-                <FontAwesomeIcon icon={faArrowLeft}/>
-                <p>
-                  Rumah Sakit Wava Husada memiliki lebih dari 300 dokter umum,
-                  2.000 spesialis dan 5.000 perawat serta tenaga medis lain
-                </p>
+                <img
+                  src="/asset/images/gambar3.png"
+                  class="d-block w-50 h-200"
+                  alt="Hospital"
+                />
+                <h5 class=" text-black">
+                  Fasilitas & Layanan di Rumah Sakit
+                </h5>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
               <div class="pricing">
-                <h4 class="text-center text-black">Berpusat Kepada Pasien</h4>
-                <FontAwesomeIcon icon={faAmbulance} />
-                <p>
-                  Mengutamakan Pelayanan yang bersifat personal dan memungkinkan
-                  Anda untuk memilih paket pemeriksaan sesuia riwayat kesehatan
-                  dan kebutuhan Anda
-                </p>
+                <h4 class=" text-black">Central Of Excellence</h4>
+                <img
+                  src="/asset/images/gambar4.png"
+                  class="d-block w-50 h-200"
+                  alt="Hospital"
+                />
+                 <h4 class=" text-black">Pusat Layanan</h4>
               </div>
             </div>
             <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
               <div class="pricing">
-                <h3 class="text-center text-black">Standar Internasional</h3>
-                <FontAwesomeIcon fontSize={24} icon={faGlobeAmericas}/>
-                <p>
-                  Rumah Sakit yang progresif dan Inovatif yang telah menjadi
-                  tolak ukur standar pelayanan kesehatan di Indonesia
-                </p>
+                <h4 class=" text-black">Layanan Medical Check Up</h4>
+                <img
+                  src="/asset/images/gambar5.png"
+                  class="d-block w-50 h-200"
+                  alt="Hospital"
+                />
+               <h4 class=" text-black"> Paket MCU Terintegrasi</h4>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ function FooterComponent() {
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Saya adalah seorang web development dan mobile development yang berasal dari Blitar, Jawa Timur.Saya lahir dikota Blitar pada tanggal 07 Feruari 2003. Lulusan SMK Brantas Karangkates Malang jurusan Teknik Informatika pada tahun 2021, beragama Islam dan bertempat tinggal di Desa Sumberaggung RT 01 RW 03 Kecamatan Selorejo, Blitar, Jawa Timur.</p>
+      
               </div>
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
